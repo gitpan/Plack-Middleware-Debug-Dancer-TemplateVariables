@@ -1,6 +1,6 @@
 package Plack::Middleware::Debug::Dancer::TemplateVariables;
 {
-  $Plack::Middleware::Debug::Dancer::TemplateVariables::VERSION = '0.001';
+  $Plack::Middleware::Debug::Dancer::TemplateVariables::VERSION = '0.002';
 }
 # ABSTRACT: Debug and inspect your template variables for Dancer
 
@@ -65,7 +65,17 @@ sub run {
 
 1;
 
+
+__END__
 =pod
+
+=head1 NAME
+
+Plack::Middleware::Debug::Dancer::TemplateVariables - Debug and inspect your template variables for Dancer
+
+=head1 VERSION
+
+version 0.002
 
 =head1 SYNOPSIS
 
@@ -83,7 +93,7 @@ Or by manually creating an app.psgi, that might contain:
         enable 'Debug', panels => ['Dancer::TemplateVariables'];
         $app;
     };
-    
+
 Note, that no 'use Plack::Middleware::Debug::Dancer::TemplateVariables' is
 needed.
 
@@ -109,3 +119,21 @@ notably the vardump-sub. The list-template is also copied, because I wanted to
 add a simple pre-tag around the dumped variable, which creates a better format.
 
 =cut
+
+=head1 INSTALLATION
+
+See perlmodinstall for information and options on installing Perl modules.
+
+=head1 AUTHOR
+
+Thomas Müller <tmueller@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Thomas Müller.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
+

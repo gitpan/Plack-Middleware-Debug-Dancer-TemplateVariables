@@ -1,3 +1,10 @@
+NAME
+    Plack::Middleware::Debug::Dancer::TemplateVariables - Debug and inspect
+    your template variables for Dancer
+
+VERSION
+    version 0.002
+
 SYNOPSIS
     To activate this panel:
 
@@ -35,4 +42,17 @@ INSPIRATION
     Most notably the vardump-sub. The list-template is also copied, because
     I wanted to add a simple pre-tag around the dumped variable, which
     creates a better format.
+
+INSTALLATION
+    See perlmodinstall for information and options on installing Perl
+    modules.
+
+AUTHOR
+    Thomas Müller <tmueller@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2012 by Thomas Müller.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 

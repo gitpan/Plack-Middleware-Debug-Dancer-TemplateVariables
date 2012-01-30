@@ -1,3 +1,4 @@
+Changes
 INSTALL
 LICENSE
 MANIFEST
@@ -8,5 +9,6 @@ README
 dist.ini
 lib/Plack/Middleware/Debug/Dancer/TemplateVariables.pm
 t/00_load.t
+weaver.ini
 xt/release/pod-coverage.t
 xt/release/pod-syntax.t
